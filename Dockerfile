@@ -1,4 +1,4 @@
-FROM debian:8
+FROM debian:9
 MAINTAINER Jakub Kwiatkowski <jakub@ajbisoft.pl>
 COPY sources.list /etc/apt/
 RUN apt-get update && apt-get install -y apache2 php5 \
