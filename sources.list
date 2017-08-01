@@ -4,6 +4,10 @@ deb-src http://ftp.debian.org/debian/ stretch main
 deb http://security.debian.org/ stretch/updates main contrib
 deb-src http://security.debian.org/ stretch/updates main contrib
 
-# jessie-updates, previously known as 'volatile'
+# stretch-updates, previously known as 'volatile'
 deb http://ftp.debian.org/debian/ stretch-updates main contrib
 deb-src http://ftp.debian.org/debian/ stretch-updates main contrib
+
+# Ondřej Surý PHP 7.1 repo
+deb https://packages.sury.org/php/ stretch main
+
