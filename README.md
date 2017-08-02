@@ -3,6 +3,7 @@
 ## Description
 
 Official Debian 9 (debian:9) + apache2 + php7.1 docker image with some customization:
+* added php7.1-mbstring and php7.1-xml packages to support Laravel framework
 * mod_rewrite apache2 module enabled
 * DocumentRoot set to /var/www/public
 * /etc/apt/sources.list modified to include stretch-updates and to use Ondřej Surý PHP 7.1 packages
