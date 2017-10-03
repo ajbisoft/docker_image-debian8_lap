@@ -11,4 +11,4 @@ RUN a2enmod rewrite
 COPY docker-entrypoint.sh /
 WORKDIR /var/www
 EXPOSE 80
-ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/docker-entrypoint.sh"]
